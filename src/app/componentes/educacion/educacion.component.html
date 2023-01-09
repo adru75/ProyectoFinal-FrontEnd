@@ -1,0 +1,9 @@
+<div class='row'>
+    <h2>Educación</h2>
+    <h3>
+    <li *ngFor="let educacion of educacionList">
+    {{educacion.school}}
+    <img [src]="educacion.img" width="150px">
+   </li>
+</h3>
+</div>

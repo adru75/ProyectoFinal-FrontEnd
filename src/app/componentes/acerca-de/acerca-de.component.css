@@ -1,0 +1,26 @@
+.foto {
+    padding: 20px;
+        
+}
+@media (min-width: 576px) {
+    #foto{
+           position: absolute;
+           top:200px;
+           width: 17%;
+           border-radius: 10px;   
+           left:4%;  
+    }
+}
+@media (max-width: 575px) {
+    #foto{
+            width: 60%;
+            border-radius: 20px;   
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+}
+
+div {
+    background-color: rgba(238, 146, 146, 0.527);
+}

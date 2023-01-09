@@ -1,0 +1,41 @@
+{
+    "name": "Adrian Romero",
+    "backImage": "nada",
+    "banner": "https://www.freewebheaders.com/wp-content/gallery/computer/cache/hi-tech-computer-keyboard-blue-red-website-header.jpg-nggid044241-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg",
+    "position": "Programador",
+    "company": [{
+        "name": "EcoBox",
+        "img": "",
+        "url": ""
+    }],
+    "education":[{
+        "school": "Escuela N° 21 D.E. N° 3 Carlos Pellegrini",
+        "title": "x",
+        "img": "",
+        "career": "",
+        "score": 0,
+        "start": "1111",
+        "end": "2222"
+    },
+    {
+        "school": "Escuela Técnica Otto Krause",
+        "title": "Técnico en computación",
+        "img": "https://www.ottokrause.edu.ar/wp-content/uploads/2021/02/orig-marca-otto-krause-1.svg",
+        "career": "",
+        "score": 0,
+        "start": "1988",
+        "end": "1994"
+    }],
+    "experiencia":[{
+        "lugar": "exp 1",
+        "cargo": "blabla",
+        "inicio": "2000",
+        "fin": "2001"
+    },
+    {
+        "lugar": "exp 2",
+        "cargo": "blabla2",
+        "inicio": "2000",
+        "fin": "2001"
+    }]
+}
