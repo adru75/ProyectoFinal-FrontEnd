@@ -1,9 +1,30 @@
-<div class='row'>
-    <h2>Educación</h2>
-    <h3>
-    <li *ngFor="let educacion of educacionList">
-    {{educacion.school}}
-    <img [src]="educacion.img" width="150px">
-   </li>
-</h3>
+<div class="row">
+    <h2>Educacion</h2>
+    <div>
+      <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">  
+          Agregar Educacion
+      </button>
+    </div>  
+      <table class="table">
+        <tbody>
+          <tr *ngFor="let Educacion of educacion" >
+            <td><h2>{{Educacion.nombreE}}</h2></td>
+            <td>{{Educacion.descripcionE}}</td>
+            <td *ngIf="isLogged">
+              <i class="bi bi-pencil-square"></i>
+              <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                editar  
+              </button>
+              <!-- agregar If logged!!!!!!!!!!!!-->
+            </td>
+            <td *ngIf="isLogged">
+              <i class="bi bi-file-x"></i>
+              <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                borrar
+              </button>    
+              </td>
+          </tr>
+        </tbody>
+      </table>
+
 </div>
