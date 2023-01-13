@@ -6,13 +6,15 @@
     Social Media
   </div>
   <div class="col"> 
-    <button type="button" class="btn btn-success">Ingreso</button>
+    <button type="button" class="btn btn-outline-danger" (click)="login()" *ngIf="!isLogged">Ingreso</button>
+    <button type="button" class="btn btn-danger" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button>
+
   </div>
 </div> 
 <div class='row'>
     <div class='col'> 
       <figure class="figure">
-        <img [src]="miPorfolio.banner" class="figure-img img-fluid rounded" alt="bla bla bla">
+        <img src="../../../assets/images/banner.webp" class="figure-img img-fluid" alt="bla bla bla">
       </figure>				
     </div>
   </div>
