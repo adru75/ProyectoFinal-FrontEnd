@@ -1,21 +1,32 @@
 <div class="row menu">
   <div class="col">
-   <img height="50px" src="../../../assets/images/APLogo.png" alt="" >
+   <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+    <img style="height: 70px;" src="../../../assets/images/APLogo.png" alt="">
+  </a>
   </div>
   <div class="col">  
-    Social Media
+   <div class="social">
+    <a href="https://github.com/adru75/">
+      <img src="../../../assets/images/logo_github.png" alt="" id="github">
+    </a>
+    <a href="https://www.instagram.com/adrianromero75/">
+      <img src="../../../assets/images/logo_instagram.png" alt="" id="instagram">
+    </a>
+    <!-- <a href=""><img src="../../../assets/images/logo_linkedin.png" alt="" id="linkedin"></a> -->
+    <a href="https://twitter.com/adru75">
+      <img src="../../../assets/images/logo_twitter.png" alt="" id="twitter">
+    </a>
+
+  </div>
   </div>
   <div class="col"> 
     <button type="button" class="btn btn-outline-danger" (click)="login()" *ngIf="!isLogged">Ingreso</button>
     <button type="button" class="btn btn-danger" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button>
-
   </div>
 </div> 
 <div class='row'>
     <div class='col'> 
-      <figure class="figure">
-        <img src="../../../assets/images/banner.webp" class="figure-img img-fluid" alt="bla bla bla">
-      </figure>				
+        <img src="../../../assets/images/banner.webp" class="img-fluid w-100" alt="bla bla bla">
     </div>
   </div>
 

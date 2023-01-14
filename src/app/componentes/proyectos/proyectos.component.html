@@ -1,3 +1,32 @@
-<div class='row'>
-    <h2>Proyectos</h2>
-</div>
+    <div class="row">
+        <div class="col-10">
+            <h1>Proyectos</h1>
+        </div>
+        <div class="col-2">
+            <button type="button" routerLink="/nuevaskill" class="btn btn-dark" *ngIf="isLogged">
+                <i class="bi bi-plus-circle"></i>
+            </button>
+        </div>
+    </div>
+    <div class='row'>
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Elecciones Online</h2>
+                    </td>
+                    <td>Juego Online PHP/MySQL</td>
+                    <td><img width="50px" src="../../../assets/images/banner_arg_prog.webp" alt=""></td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>
+                    <h2>Se Juega?</h2>
+                </td>
+                <td>Administrador de partidos PHP/MySQL</td>
+                <td><img width="50px" src="../../../assets/images/banner_arg_prog.webp" alt=""></td>
+            </tr>
+
+        </table>
+
+    </div>

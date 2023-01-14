@@ -17,7 +17,7 @@ export class PorfolioService {
 
 
   public getPersona(): Observable<persona> {
-    return this.http.get<persona>(this.URL+'traer');
+    return this.http.get<persona>(this.URL+'detail/1');
   }
 
 /*  masterclass usando un json como base de datos.

@@ -9,8 +9,8 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
 })
 export class AcercaDeComponent implements OnInit {
   
-  persona: persona = new persona("","","");
-
+persona: persona = new persona("","","");
+//persona: persona[] = [];
 
   constructor(public datosPorfolio:PorfolioService) {}
 

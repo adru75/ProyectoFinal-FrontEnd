@@ -24,3 +24,11 @@
 div {
     background-color: rgba(238, 146, 146, 0.527);
 }
+.nombre {
+    text-align: right;
+    padding: 20px;
+}
+
+.about {
+    padding: 15px;
+}
